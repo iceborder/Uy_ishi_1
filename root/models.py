@@ -12,9 +12,7 @@ class Fields(models.Model):
 
 class Forms(models.Model):
     name = models.CharField()
-    CompanyName = models.CharField()
     email = models.EmailField()
-    product_category = models.CharField()
     message = models.TextField()
 
     def __str__(self):
